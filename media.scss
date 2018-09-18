@@ -1,0 +1,15 @@
+@media only screen and (min-width: 540px) {
+	@for $i from 1 through 12 {
+	  .col-#{$i} { width: 8.33% * $i; }
+	}
+}
+@media only screen and (min-width: 768px) {
+	@for $i from 1 through 12 {
+	  .col-s-#{$i} { width: 8.33% * $i; }
+	}
+}
+@media only screen and (min-width: 1080px) {
+	@for $i from 1 through 12 {
+	  .col-xs-#{$i} { width: 8.33% * $i; }
+	}
+}
